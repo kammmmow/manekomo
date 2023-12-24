@@ -20,23 +20,23 @@ manekomoがrootディレクトリ
 
   Directory:  
     /src  
-      /img  
+    -  /img  
         画像置き場  
-      /css  
+    -  /css  
         プラスのcss(bootstrap優先)   
-      /types  
+    -  /types  
         全てに共通するデータの統一（色、フォントなど）  
-      /views  
-        /components  
+    -  /views  
+    --    /components  
           色々共通する部分（ヘッダーなど）を置いておきインポートして使用  
-        /pages  
-          /App.tsx  
+    --    /pages  
+    ---      /App.tsx  
             スタートページ  
-          /game  
+    ---      /game  
             第1フェーズの開発  
-          /question  
+    ---      /question  
             あとで  
-          /learning  
+    ---      /learning  
             あとで  
 
 
@@ -50,7 +50,7 @@ https://qiita.com/sugurutakahashi12345/items/1f6bb7a372b8263500e5
 ## backend  
   Express(Typescript)  
     http://localhost:3000  
-
+調整中  
 
 
 ## database  
